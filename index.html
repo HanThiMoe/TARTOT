@@ -63,7 +63,7 @@
     const majors = ["The Fool", "The Magician", "High Priestess", "Empress", "Emperor", "Hierophant", "Lovers", "Chariot", "Strength", "Hermit", "Wheel", "Justice", "Hanged Man", "Death", "Temperance", "Devil", "Tower", "Star", "Moon", "Sun", "Judgement", "World"];
     const suits = ["Wands", "Cups", "Swords", "Pentacles"];
     majors.forEach((m, i) => {
-        tarotDB.push({ n: m, u: https://raw.githubusercontent.com/htanmo/tarot-images/main/cards/m${i}.jpg, Love: m + " အရ အချစ်ရေးမှာ ကံကောင်းမှုတွေ ရလာပါလိမ့်မယ်။", Money: m + " က ငွေကြေးစီးဆင်းမှု ကောင်းမွန်တာကို ပြပါတယ်။", Work: m + " အရ အလုပ်အကိုင်မှာ နေရာသစ်ရပါမယ်။" });
+        tarotDB.push({ n: m, u: 'https://raw.githubusercontent.com/htanmo/tarot-images/main/cards/m${i}.jpg', Love: m + " အရ အချစ်ရေးမှာ ကံကောင်းမှုတွေ ရလာပါလိမ့်မယ်။", Money: m + " က ငွေကြေးစီးဆင်းမှု ကောင်းမွန်တာကို ပြပါတယ်။", Work: m + " အရ အလုပ်အကိုင်မှာ နေရာသစ်ရပါမယ်။" });
     });
     suits.forEach(s => {
         for(let i=1; i<=14; i++) tarotDB.push({ n: i+" of "+s, u: https://raw.githubusercontent.com/htanmo/tarot-images/main/cards/${s.toLowerCase()}${i}.jpg, Love: s + " ကဒ်ကျလို့ အချစ်ရေးမှာ အဆင်ပြေပါမယ်။", Money: s + " က စီးပွားတိုးတက်မယ့် လက္ခဏာပါ။", Work: "လုပ်ငန်းခွင်မှာ ကြိုးစားမှု အောင်မြင်ပါမယ်။" });
